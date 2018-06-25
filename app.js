@@ -55,7 +55,7 @@ checkIfBadWords("sad",`Take this virtual ${gift_emoji} I hope you feel better so
 
   //sorry i type that it is against my religion but it is right sorry
   //commands 
-  if(checkIfBadWords("/ping")) {
+  if(command === "/ping") {
     message.channel.send("Pong!");
   }
 
