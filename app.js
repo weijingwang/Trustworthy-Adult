@@ -1,14 +1,9 @@
 const Discord = require("discord.js");
-
 const bot = new Discord.Client();
 
 const config = require("./config.json");
 
 const current_year = new Date().getFullYear();
-
-//emoji
-
-
 
 bot.on("ready", () => {
   console.log(`Botbot start with ${bot.users.size} users, in ${bot.channels.size} channels of ${bot.guilds.size} guilds. GO AIKO KITSUNE CHAN~~!!! (^o^)`);
