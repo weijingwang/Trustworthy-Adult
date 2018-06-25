@@ -12,7 +12,7 @@ bot.on("ready", () => {
 
 bot.on("guildCreate", guild => {
   console.log(`New guild joined: ${guild.name} (id: ${guild.id}). This guild has ${guild.memberCount} members!`);
-  bot.user.setActivity(`do /help Serving ${bot.guilds.size} servers`);
+  bot.user.setActivity(`do -help Serving ${bot.guilds.size} servers`);
 });
 
 bot.on("guildDelete", guild => {

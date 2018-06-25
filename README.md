@@ -1,7 +1,7 @@
 # Trustworthy-Adult
 The Trustworthy Adult Discord Bot
 
-Type ```/help``` in the chat to get help
+Type ```-help``` in the chat to get help
 
 Trustworthy Adult is a Discord bot by Weijing Wang and it is truly
 a trustworthy adult although it currently only stays online when I do (for now).
