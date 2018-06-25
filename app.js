@@ -6,6 +6,10 @@ const config = require("./config.json");
 
 const current_year = new Date().getFullYear();
 
+//emoji
+
+
+
 bot.on("ready", () => {
   console.log(`Botbot start with ${bot.users.size} users, in ${bot.channels.size} channels of ${bot.guilds.size} guilds. GO AIKO KITSUNE CHAN~~!!! (^o^)`);
   bot.user.setActivity(`do /help`);
@@ -43,9 +47,16 @@ bot.on("message", async message => {
 
   //the ".toLowerCase()" check all instances of the word, regardless of capitalization
 checkIfBadWords("fuck","HEY!!! WHY DO YOU THINK THAT **LANGUAGE** IS **APPROPRIATE** ON **THIS** SERVER HUH???!!!");
-checkIfBadWords("shit",'**not cool**, you know better, buddy! Try, "Bowel Movement" instead.');
+checkIfBadWords("shit",'**not cool not cool** smh... tsk... small fry... ಠ_ಠ');
 checkIfBadWords("bitch","Did you mean: *a female dog, wolf, fox, or otter?*")
 checkIfBadWords("bonzibuddy","Y(^o^)Y https://www.youtube.com/watch?v=MiRaRy4Qq8g Y(^o^)Y");
+//sad
+var gift_emojis = ["cookie and fake eat it. <:cookie:460639369640935429>","chicken leg and fake eat it. <:poultry_leg:460641620983939102>",
+"kawaii keku and fake tabemasu desu. <:cake:460642307062890496>","sugoi hambaga and fake tabemasu desu. <:hamburger:460642663704559617>",
+"super kawaii midori oocha and drink it (High quality super safe will make you feel good version ^_^).<:tea:460643094560374804>",
+"牛奶然後把它喝完。<:milk:460643760150151176>"]
+var gift_emoji = gift_emojis[Math.floor(Math.random() * gift_emojis.length)];
+checkIfBadWords("sad",`Take this virtual ${gift_emoji} I hope you feel better soon!`)
 
   //sorry i type that it is against my religion but it is right sorry
   //commands 
@@ -128,7 +139,19 @@ var random_quote = quality_quotes[Math.floor(Math.random() * quality_quotes.leng
     message.channel.send(random_quote);
   }
 
+var the_jokes = ["<:french_bread:460645090168143874> mmmmshph!! HAHHAAHAHAHHAHHHAHAHAHAHHAHAAHHAHAHAHHAHAHAHHAHAHHHAHHAH!!!",
+"What happens when you step on a grape? It lets out a little WINE!!! HAHHAAHAHAHHAHHHAHAHAHAHHAHAAHHAHAHAHHAHAHAHHAHAHHHAHHAH!!!!",
+"What happens when a frog's car breaks down? It gets TOAD!!! HAHHAAHAHAHHAHHHAHAHAHAHHAHAAHHAHAHAHHAHAHAHHAHAHHHAHHAH!!!!!!!!!! HAHAHAHHHAHAHAH!!!!",
+"What did the flag say to the other flag??? ^o^ Nothing, it just WAVED!!! HAHHAAHAHAHHAHHHAHAHAHAHHAHAAHHAHAHAHHAHAHAHHAHAHHHAHHAH!!!! HAHAHHAHA!",
+"What do you call a picnic except with all pigs?? <:thinking:460646785950416901> A **PIGNIC**!!! HAHHAAHAHAHHAHHHAHAHAHAHHAHAAHHAHAHAHHAHAHAHHAHAHHHAHHAH!!!!",
+"Why could'nt the skeleton ask a girl out??? <:skull:460647047255687168> Because it had NO GUTS!!! HAHHAAHAHAHHAHHHAHAHAHAHHAHAAHHAHAHAHHAHAHAHHAHAHHHAHHAH!!"];
 
+var joke = the_jokes[Math.floor(Math.random() * the_jokes.length)];
+
+
+  if(command === "/joke") {
+    message.channel.send(joke);
+  }
 
 //help
   if(command === "/help") {
@@ -155,7 +178,11 @@ var random_quote = quality_quotes[Math.floor(Math.random() * quality_quotes.leng
       },
       {
         name: "/quote",
-        value: "get a quality quote about how Trustworthy Adult is trustworthy!!"
+        value: "get a quality quote about how Trustworthy Adult is trustworthy!! (also use of arrays)"
+      },
+      {
+        name: "/joke",
+        value: "tell funniest jok es"
       },
       {
         name: "/info",
@@ -168,6 +195,10 @@ var random_quote = quality_quotes[Math.floor(Math.random() * quality_quotes.leng
       {
         name: "/vn",
         value: "show suprise"
+      },
+      {
+        name: "sad",
+        value: "Do if you're sad. Aiko Kitsune Chan tries to be nice and make you less-sad"
       }
     ],
     footer: {
