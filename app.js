@@ -7,7 +7,7 @@ const current_year = new Date().getFullYear();
 
 bot.on("ready", () => {
   console.log(`Botbot start with ${bot.users.size} users, in ${bot.channels.size} channels of ${bot.guilds.size} guilds. GO AIKO KITSUNE CHAN~~!!! (^o^)`);
-  bot.user.setActivity(`do /help`);
+  bot.user.setActivity(`do -help`);
 });
 
 bot.on("guildCreate", guild => {
