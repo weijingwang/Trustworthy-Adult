@@ -55,7 +55,7 @@ checkIfBadWords("sad",`Take this virtual ${gift_emoji} I hope you feel better so
 
   //sorry i type that it is against my religion but it is right sorry
   //commands 
-  if(command === "/ping") {
+  if(command === "-ping") {
     message.channel.send("Pong!");
   }
 
@@ -64,14 +64,14 @@ checkIfBadWords("sad",`Take this virtual ${gift_emoji} I hope you feel better so
   }
 
 
-  if(command === "/say") {
+  if(command === "-say") {
 
     const sayMessage = args.join(" ");
     message.delete().catch(O_o=>{});
     message.channel.send(sayMessage);
   }
 
-  if(command === "/info") {
+  if(command === "-info") {
     message.channel.send("ok so on June 22 2018, I made this bot\
       I saw a lot of bots but all of them didn't work for me and they made me\
       really mad. So I decided to make my own bot by glue coding since I\
@@ -92,11 +92,11 @@ checkIfBadWords("sad",`Take this virtual ${gift_emoji} I hope you feel better so
       into believing our beliefs! GOGOGO!!! June 24, 2018'");
   }
 
-  if(command === "/github") {
+  if(command === "-github") {
     message.channel.send("Here is the link to the Github Repo: https://github.com/weijingwang/Trustworthy-Adult");
   }
 
-  if(command === "/vn") {
+  if(command === "-vn") {
     message.channel.send("you wannna know huh huh? https://kawaiikitsunelover645.itch.io/sounds-of-the-night");
   }
 
@@ -112,7 +112,7 @@ var pickuplines = ["Are you a sea lion? Because I can sea you lion in my bed ton
 var random_pickupline = pickuplines[Math.floor(Math.random() * pickuplines.length)];
 
 
-  if(command === "/pickupline") {
+  if(command === "-pickupline") {
     message.channel.send(random_pickupline);
   }
 
@@ -130,7 +130,7 @@ var quality_quotes = ["A Trustworthy Adult is someone you can trust. Who can tru
 var random_quote = quality_quotes[Math.floor(Math.random() * quality_quotes.length)];
 
 
-  if(command === "/quote") {
+  if(command === "-quote") {
     message.channel.send(random_quote);
   }
 
@@ -144,12 +144,12 @@ var the_jokes = ["<:french_bread:460645090168143874> mmmmshph!! HAHHAAHAHAHHAHHH
 var joke = the_jokes[Math.floor(Math.random() * the_jokes.length)];
 
 
-  if(command === "/joke") {
+  if(command === "-joke") {
     message.channel.send(joke);
   }
 
 //help
-  if(command === "/help") {
+  if(command === "-help") {
 
     message.channel.send({embed: {
     color: 3447003,
@@ -160,35 +160,35 @@ var joke = the_jokes[Math.floor(Math.random() * the_jokes.length)];
     },
     title: "xX_HELP_Xx",
     fields: [{
-        name: "/ping",
+        name: "-ping",
         value: "I say Pong!"
       },
       {
-        name: "/say",
+        name: "-say",
         value: "make me say something"
       },
       {
-        name: "/pickupline",
+        name: "-pickupline",
         value: "say funny stuff (use of arrays)"
       },
       {
-        name: "/quote",
+        name: "-quote",
         value: "get a quality quote about how Trustworthy Adult is trustworthy!! (also use of arrays)"
       },
       {
-        name: "/joke",
+        name: "-joke",
         value: "tell funniest jok es. *ONLY THE FUNNIEST JOKES*"
       },
       {
-        name: "/info",
+        name: "-info",
         value: "make me explain myself"
       },
       {
-        name: "/github",
+        name: "-github",
         value: "get github repo link"
       },
       {
-        name: "/vn",
+        name: "-vn",
         value: "show suprise"
       },
       {
