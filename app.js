@@ -7,7 +7,7 @@ const config = require("./config.json");
 const current_year = new Date().getFullYear();
 
 bot.on("ready", () => {
-  console.log(`Botbot start with ${bot.users.size} users, in ${bot.channels.size} channels of ${bot.guilds.size} guilds.`);
+  console.log(`Botbot start with ${bot.users.size} users, in ${bot.channels.size} channels of ${bot.guilds.size} guilds. GO AIKO KITSUNE CHAN~~!!! (^o^)`);
   bot.user.setActivity(`do /help`);
 });
 
@@ -44,20 +44,7 @@ bot.on("message", async message => {
   //the ".toLowerCase()" check all instances of the word, regardless of capitalization
 checkIfBadWords("fuck","HEY!!! WHY DO YOU THINK THAT **LANGUAGE** IS **APPROPRIATE** ON **THIS** SERVER HUH???!!!");
 checkIfBadWords("shit",'**not cool**, you know better, buddy! Try, "Bowel Movement" instead.');
-checkIfBadWords("bitch","Did you mean: *a female dog, wolf, fox, or otter?*");
-checkIfBadWords("vape","#VapeNation!!! #GoGreen! https://www.youtube.com/watch?v=Dkm8Hteeh6M");
-//checkIfBadWords("penis","Hey, no good word! bad!");
-//checkIfBadWords("xxx","Hey, no good word! bad!");
-
-//counseling seccession
-var sadArray = ["I'm sorry you're feeling sad. I'm here for you if you need anything.","If you want to talk, I'm a good listener!","Oh,no. It may not be much, but let me know if there is anything I can do for you.","I wish I had arms so I could give you a hug. But for now, maybe a joke or some music might help.",
-""]
-// if (checkIfBadWords("sad")) {
-//   message.channel.send(sadArray[Math.floor(Math.random() * myArray.length)]);
-// }
-
-checkIfBadWords("sad",sadArray[Math.floor(Math.random() * sadArray.length)]);
-  
+checkIfBadWords("bitch","Did you mean: *a female dog, wolf, fox, or otter?*")
 checkIfBadWords("bonzibuddy","Y(^o^)Y https://www.youtube.com/watch?v=MiRaRy4Qq8g Y(^o^)Y");
 
   //sorry i type that it is against my religion but it is right sorry
@@ -85,11 +72,22 @@ checkIfBadWords("bonzibuddy","Y(^o^)Y https://www.youtube.com/watch?v=MiRaRy4Qq8
       don't know javascript yeah?\
       this bot is currently run on my computer so it will only be on when I\
       am on so far. I might migrate it to somewhere else maybe.\
-      thank kyler for some python syntax --> js help!");
+      thank kyler for some python syntax --> js help!\
+      This bot is actually like a branch-off\
+      of the original bot called *Trustable Adult* (The one made on June 22 2018).\
+      I do not know what happened? (❁°͈▵°͈)\
+      Trustable Adult used to be so trustworthy but it started\
+      censoring out god and xxxxxxxxxxx!!! That is against my religion!!!\
+      THIS IS OBVIOUSLY THE MORE TRUSTABLE ADULT HERE SINCE THIS AIKO KITSUNE CHAN\
+      DOES NOT ENCOURAGE HEAVY CENSORSHIP. Trusworthy adults may not like too much\
+      cursing but censoring things in a not-censored enviroment is just not very right.\
+      Trustable Adult became Helicoper Parent Adult!!! Oh no!! 大変だ！！！ 不好！\
+      Hopefully you guys support me and we will convert the now *Helicopter Parent Adult*\
+      into believing our beliefs! GOGOGO!!! June 24, 2018'");
   }
 
   if(command === "/github") {
-    message.channel.send("Here is the link to the Github Repo: https://github.com/weijingwang/Trustable-Adult");
+    message.channel.send("Here is the link to the Github Repo: https://github.com/weijingwang/Trustworthy-Adult");
   }
 
   if(command === "/vn") {
@@ -113,10 +111,10 @@ var random_pickupline = pickuplines[Math.floor(Math.random() * pickuplines.lengt
   }
 
 //our product is quality that you can trust
-var quality_quotes = ["A Trustable Adult is someone you can trust. Who can trust an adult who censors things?",
-"Do you trust me? You should. I am a Trustable Adult.",
+var quality_quotes = ["A Trustworthy Adult is someone you can trust. Who can trust an adult who censors things?",
+"Do you trust me? You should. I am a Trustworth Adult.",
 "Liars can't be trusted. I don't lie or hide things. You can trust me V(^_^)V",
-"Trust can be built over time. Nice to meet you! I am Trustable Adult",
+"Trust can be built over time. Nice to meet you! I am the Trustworthy Adult AKA Aiko kitsune chan the coolest kitsune of the cool kitsunes",
 "A friend is someone you trust. Someone you trust is a friend.",
 "I stand up for others when I can. I will call out anyone who tries to say any big boy words. >:(",
 "Trust takes years to build, seconds to break, and forever to repair. I am a smart kitsune...",
@@ -137,7 +135,7 @@ var random_quote = quality_quotes[Math.floor(Math.random() * quality_quotes.leng
 
     message.channel.send({embed: {
     color: 3447003,
-    description: "*I am a trustable adult and i help and i dont like bad boys/girls*/",
+    description: "*I am a trustworthy adult and i help and i dont like bad boys/girls*/",
     author: {
       name: bot.user.username + "'s",
       icon_url: bot.user.avatarURL
@@ -170,10 +168,6 @@ var random_quote = quality_quotes[Math.floor(Math.random() * quality_quotes.leng
       {
         name: "/vn",
         value: "show suprise"
-      },
-      {
-        name: "sad",
-        value: "counseling session"
       }
     ],
     footer: {
