@@ -20,3 +20,10 @@ innapopo pictures :)
 INTO THE BOT DIRECTORY AND TYPE ```node app.js``` INTO THE TERMINAL TO GET THE BOT TO START.** 
 
 **ENJOY**
+
+# Invite Link (If you just want to add the bot)
+*Keep in mind that the bot may not be on 24/7 yet so you could just add it for fun. I will try to get it online 24/7 soon though*
+
+[<img src="https://cdn.discordapp.com/app-icons/460625745169874964/472a5f109a0517eebd323de6c23f2443.png">](https://discordapp.com/oauth2/authorize?client_id=460625745169874964&permissions=67632320&scope=bot)
+
+https://discordapp.com/oauth2/authorize?client_id=460625745169874964&permissions=67632320&scope=bot
