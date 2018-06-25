@@ -64,7 +64,7 @@ checkIfBadWords("sad",`Take this virtual ${gift_emoji} I hope you feel better so
     message.channel.send("Pong!");
   }
 
-  if(command === "<@279093611919048716>") {
+  if(command === "<@460625745169874964>") {
     message.channel.send("hi!")    
   }
 
