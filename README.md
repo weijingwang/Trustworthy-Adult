@@ -5,6 +5,7 @@ Type ```/help``` in the chat to get help
 
 Trustable Adult is a Discord bot by Weijing Wang and it is truly
 a trustable adult although it currently only stays online when I do (for now).
+*Thank Kyler Chin anyways for helping writing a function. :)*
 
 Trustable Adult is just a glued up piece of junk I made but is real cool yeah?
 Doesn't like bad boys & girls; calls them out for swearing.
