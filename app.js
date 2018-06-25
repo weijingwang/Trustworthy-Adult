@@ -64,7 +64,7 @@ checkIfBadWords("sad",`Take this virtual ${gift_emoji} I hope you feel better so
     message.channel.send("Pong!");
   }
 
-  if(command === "<@459824205291192320>") {
+  if(command === "<@279093611919048716>") {
     message.channel.send("hi!")    
   }
 
@@ -182,7 +182,7 @@ var joke = the_jokes[Math.floor(Math.random() * the_jokes.length)];
       },
       {
         name: "/joke",
-        value: "tell funniest jok es"
+        value: "tell funniest jok es. *ONLY THE FUNNIEST JOKES*"
       },
       {
         name: "/info",
