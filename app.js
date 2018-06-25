@@ -155,7 +155,7 @@ var random_quote = quality_quotes[Math.floor(Math.random() * quality_quotes.leng
       },
       {
         name: "/quote",
-        value: "get a quality quote about how Trustable Adult is trustable!!"
+        value: "get a quality quote about how Trustworthy Adult is trustworthy!!"
       },
       {
         name: "/info",
