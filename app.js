@@ -139,7 +139,8 @@ var the_jokes = ["<:french_bread:460645090168143874> mmmmshph!! HAHHAAHAHAHHAHHH
 "What happens when a frog's car breaks down? It gets TOAD!!! HAHHAAHAHAHHAHHHAHAHAHAHHAHAAHHAHAHAHHAHAHAHHAHAHHHAHHAH!!!!!!!!!! HAHAHAHHHAHAHAH!!!!",
 "What did the flag say to the other flag??? ^o^ Nothing, it just WAVED!!! HAHHAAHAHAHHAHHHAHAHAHAHHAHAAHHAHAHAHHAHAHAHHAHAHHHAHHAH!!!! HAHAHHAHA!",
 "What do you call a picnic except with all pigs?? <:thinking:460646785950416901> A **PIGNIC**!!! HAHHAAHAHAHHAHHHAHAHAHAHHAHAAHHAHAHAHHAHAHAHHAHAHHHAHHAH!!!!",
-"Why could'nt the skeleton ask a girl out??? <:skull:460647047255687168> Because it had NO GUTS!!! HAHHAAHAHAHHAHHHAHAHAHAHHAHAAHHAHAHAHHAHAHAHHAHAHHHAHHAH!!"];
+"Why could'nt the skeleton ask a girl out??? <:skull:460647047255687168> Because it had NO GUTS!!! HAHHAAHAHAHHAHHHAHAHAHAHHAHAAHHAHAHAHHAHAHAHHAHAHHHAHHAH!!",
+"Why was *seven* afraid of *nine*??? .................. **BECAUSE SEVEN *EIGHT* NINE!!!!!!!!** HAAHHAHHAHAHAHAHHAHAHHHHHHAHHHAAHAHHAHAHAHAHAAHAHA"];
 
 var joke = the_jokes[Math.floor(Math.random() * the_jokes.length)];
 
