@@ -21,8 +21,10 @@ bot.on("guildDelete", guild => {
 });
 
 bot.on("message", async message => {
-
-  if(message.author.bot) return;
+  
+  if(message.author.bot) {
+  return true;
+  }
 
   if(message.content.indexOf(config.prefix) !== 0) return;
 
